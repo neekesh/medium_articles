@@ -1,0 +1,15 @@
+Validators,Pros,Cons
+GO-PLAYGROUND VALIDATOR,"- Popular and growing community
+- Customize transalated error
+- Builtin Unicode validation ","- tags are used to validate the struct
+- Heavy and not suitable if you are building small system"
+ASASKEVICH VALIDATOR,"- can set a default rule for a validator
+- default tags calls the default validation
+-  can use the map to be validated and a validation map that contain the same tags used in ValidateStruct","- tags are used to validate the struct 
+"
+OZZO-VALIDATION,"- Easiest validation and easy to understand
+- Simple
+- no need  tags to validate",- requires go 1.18
+GO-VALIDATORS,"- lightweight
+- offers multiple validators for same struct","- less popular so no strong community
+"
